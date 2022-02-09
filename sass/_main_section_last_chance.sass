@@ -1,0 +1,103 @@
+.last-chance-items
+    position: relative
+    &::after 
+        content: ''
+        width: 1250px
+        height: 545px
+        background-color: #faece9
+        display: block
+        position: absolute
+        left: -590px
+        top: -73px
+        z-index: -1
+.last-chance
+    & h2 
+        font-family: "Playfair Display", sans-serif 
+        font-weight: 700
+        font-size: 28px
+        line-height: 37px
+        letter-spacing: 2px
+        text-transform: uppercase
+        color: #303032
+        margin-bottom: 7px   
+    &-rectangle 
+        margin-bottom: 37px         
+    &-nav 
+        display: flex
+        flex-wrap: nowrap   
+        margin-bottom: 25px
+    &-nav a 
+        font-family: "Open Sans", sans-serif 
+        font-weight: 600
+        font-size: 16px
+        line-height: 25px
+        color: #00000070
+        margin-right: 48px
+        text-decoration: none  
+        &:hover 
+            color: #000000
+            text-decoration: underline 
+        &:focus
+            color: #000000 
+            text-decoration: underline          
+.last-chance-slide
+    display: flex
+    justify-content: center
+    flex-wrap: nowrap
+.last-chance-flex-card 
+    width: 209px
+    height: 355px
+    background-color: #ffffff
+    border-top: 5px solid transparent
+    padding-top: 30px
+    margin-left: 3px
+    margin-right: 3px
+    margin-bottom: 111px
+    box-shadow: 5px 5px 10px #cccccc
+    cursor: pointer   
+    & h3 
+        font-family: "Open Sans", sans-serif 
+        font-weight: 400
+        font-size: 16px
+        line-height: 22px
+        margin-left: 20px
+        margin-bottom: 4px
+    & span:nth-child(even) 
+        margin-left: 20px
+        margin-right: 11px
+        font-family: "Open Sans", sans-serif 
+        font-weight: 600
+        font-size: 28px
+        line-height: 38px
+        vertical-align: middle    
+    & span:nth-child(odd) 
+        font-family: "Open Sans", sans-serif 
+        font-weight: 400
+        font-size: 16px
+        font-weight: 21px
+        color: #00000080
+        text-decoration: line-through
+        vertical-align: middle
+    & img 
+        margin-bottom: -4px
+        text-align: right
+        margin-left: 50px
+    & button 
+        width: 100%
+        border: none
+        font-family: "Open Sans", sans-serif 
+        font-weight: 400
+        font-size: 16px
+        line-height: 22px
+        text-transform: uppercase
+        text-align: center
+        padding: 18px 60px
+        background-color: #303032
+        color: #ffffff95
+        display: none   
+    &:hover button
+        display: block
+        cursor: pointer
+        background-color: #303032           
+    &:hover 
+        border-top: 5px solid #000000

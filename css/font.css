@@ -1,41 +1,55 @@
 @font-face {
-	font-family: 'Open Sans';
-	src: url('fonts/open_sans/OpenSans-Regular.ttf');
+	font-family: "Open Sans";
+	src: url("../fonts/opensansregular.woff2");
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Open Sans';
-	src: url('fonts/open_sans/OpenSans-Regularitalic.ttf');
+	font-family: "Open Sans";
+	src: url("../fonts/opensansregularItalic.woff2");
 	font-weight: 400;
 	font-style: italic;
 }
 
 @font-face {
-	font-family: 'Open Sans';
-	src: url('fonts/open_sans/OpenSans-SemiBold.ttf');
+	font-family: "Open Sans";
+	src: url("../fonts/opensans-semibold.woff2");
 	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Playfair Display';
-	src: url('fonts/playfair_display/PlayfairDisplay-Bold.ttf');
+	font-family: "Playfair Display";
+	src: url("../fonts/playfair-display-bold.woff2");
 	font-weight: 700;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Playfair Display';
-	src: url('fonts/playfair_display/PlayfairDisplay-Regular.ttf');
+	font-family: "Playfair Display";
+	src: url("../fonts/playfair-display.woff2");
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Roboto';
-	src: url('fonts/roboto/Roboto-Regular.ttf');
+	font-family: "Roboto";
+	src: url("../fonts/roboto.woff2");
 	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Avenir Next";
+	src: url("../fonts/avenirnextcyr-regular.woff2");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Avenir Next";
+	src: url("../fonts/avenirnextcyr-demi.woff2");
+	font-weight: 600;
 	font-style: normal;
 }

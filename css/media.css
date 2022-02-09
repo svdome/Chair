@@ -1,15 +1,66 @@
-@media screen and (max-width: 1440px) {
-
+@media screen and (max-width: 1920px) {
+    
+}
+@media screen and (max-width: 1439px) {
+    .header-flex::before {
+        display: none;
+    }
+    .swiper-container::before {
+        display: none;
+    }
+    
+    .novelties-flex {
+        justify-content: center;
+    }
+    .novelties-item-two, .novelties-item-three {
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .header-flex::before {
+        right: -817px;
+    }
+     
+    .designer-furniture-product {
+        flex-wrap: nowrap;
+    }
+    .designer-furniture-product-info h2 {
+        font-size: 57px;
+        line-height: 82px;
+    } 
+    
 }
 @media screen and (max-width: 768px) {
     
+    .header-nav a {
+        display: none;
+    }
+    .header-burger-menu {
+        display: block;
+    }
+      
+    .designer-furniture-product-info h2 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .avatar-center {
+        display: none;
+    }
 }
 @media screen and (max-width: 425px) {
+    .designer-furniture-product {
+        justify-content: flex-start;
+    }
     
+
 }
 @media screen and (max-width: 375px) {
-    
+    .novelties-item-four {
+        min-height: 289px;
+    }
+
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {  
     
 }

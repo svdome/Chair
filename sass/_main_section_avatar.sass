@@ -1,0 +1,72 @@
+.avatar 
+    margin-top: 4vw
+    margin-bottom: 4vw
+    &-slide
+        display: flex
+        justify-content: center
+        height: 490px
+        padding: 0 50px
+        margin-bottom: 20px
+        position: relative
+        &::before
+            content: ''
+            width: 36px
+            height: 36px
+            border-radius: 50%
+            background-color: #00000050
+            border: 0
+            box-shadow: 0 0 20px #00000020
+            cursor: pointer
+            position: absolute
+            top: 46%
+            right: -34px
+            z-index: -1
+            &:hover 
+                box-shadow: 0 0 20px #00000050 
+        &::after
+            content: ''
+            width: 36px
+            height: 36px
+            border-radius: 50%
+            background-color: #00000050
+            border: 0
+            box-shadow: 0 0 20px #00000020
+            cursor: pointer
+            position: absolute
+            top: 46%
+            left: -34px
+            z-index: -1
+            &:hover 
+                box-shadow: 0 0 20px #00000050 
+.avatar-center
+    display: flex
+    flex-direction: column
+    color: #444348
+    text-align: center
+    width: 45vw
+    & img 
+        margin: 0 auto
+        border-radius: 50%
+        margin-bottom: 25px    
+    & h3 
+        font-family: "Avenir Next", sans-serif 
+        font-weight: 600
+        font-size: 16px
+        line-height: 24px
+        margin-bottom: 10px
+    & .avatar-paragraph-top 
+        font-family: "Open Sans", sans-serif 
+        font-weight: 400
+        font-size: 16px
+        line-height: 24px
+        margin-bottom: 20px
+    & .avatar-paragraph-bottom 
+        font-family: "Open Sans", sans-serif  
+        font-weight: 400
+        font-style: italic
+        font-size: 16px
+        line-height: 24px
+        margin-bottom: 20px
+        /*margin: 0 auto 0.5vw auto 
+
+    
